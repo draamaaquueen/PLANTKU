@@ -1,0 +1,359 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.visit {
+    margin: 0 56px 80px 56px;
+    padding: 88px 0 88px 97px;
+    min-height: 360px;
+    background-color: #F3F4F6;
+    background-image: url(../img/visit/bg.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.visit .visit_title {
+    width: 585px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: #2C1500;
+}
+
+.visit .visit_button {
+    display: block;
+    margin-top: 42px;
+    width: 152px;
+    height: 40px;
+    background: #156963;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.visit .visit_button:hover {
+    background: #147d76;
+}
+
+.recommendations {
+    background-image: url(../img/recommendations/bg.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    padding: 0 58px;
+}
+
+.recommendations div {
+    width: 470px;
+}
+
+.recommendations .recommendations_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: #2C1500;
+}
+
+.recommendations .recommendations_descr {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2c1500a3;
+}
+
+.recommendations .recommendations_img {
+    display: block;
+    margin-top: 75px;
+}
+
+.featured {
+    padding: 140px 58px 80px 58px;
+    min-height: 315px;
+}
+
+.featured .featured_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.featured .featured_wrapper .featured_item {
+    padding: 22px 16px;
+    width: 30%;
+    min-height: 175px;
+    border: 1px solid #E0E0E0;
+}
+
+.featured .featured_wrapper .featured_item .featured_block {
+    display: flex;
+    align-items: center;
+}
+
+.featured .featured_wrapper .featured_item .featured_block .featured_img {
+    display: block;
+}
+
+.featured .featured_wrapper .featured_item .featured_block .featured_subtitle {
+    margin-left: 16px;
+    width: 95px;
+    min-height: 63px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #156963;
+}
+.featured .featured_wrapper .featured_item .featured_block .featured_subtitle:nth-last-child(3) {
+    width: 135px;
+}
+
+.featured .featured_wrapper  .featured_item .featured_descr {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #2C1500;
+}
+
+.header {
+    padding-top: 186px;
+    min-height: 600px;
+    position: relative;
+    background-image: url(../img/main_bg.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.header .header_logo {
+    display: block;
+}
+
+.header .header_block {
+    padding: 0 56px;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+}
+
+.header .nav .nav_item {
+    text-decoration: none;
+}
+
+.header .nav .nav_search {
+    margin-right: 25px;
+    height: 20px;
+}
+
+.header .nav .nav_cart {
+    height: 20px;
+}
+
+.header .nav .nav_up {
+    width: 111px;
+    height: 36px;
+    border: none;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #156963;
+    cursor: pointer;
+}
+
+.header .nav .nav_in {
+    width: 111px;
+    height: 36px;
+    background: #156963;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header .header_title {
+    margin-right: 72px;
+    margin-left: auto;
+    width: 500px;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 83px;
+    color: #156963;
+}
+
+.header .header_descr {
+    margin: 24px 80px 0 auto;
+    width: 490px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2C1500;
+}
+
+.header .header_button {
+    display: flex;
+    margin: 110px 0 0 auto;
+    width: 600px;
+}
+
+.header .header_button .button_previous, .header .header_button .button_next {
+    width: 50%;
+    padding: 40px 50px;
+    border: none;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 32px;
+    color: #156963;
+}
+
+.header .header_button .button_next {
+    background-color: #156963;
+    color: #fff;
+}
+
+.header .header_button .button_previous .button_pointer {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
+.header .header_button .button_next .button_pointer {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    color: #F2F2F2;
+    margin-bottom: 12px;
+}
+
+.plants {
+    padding: 0 58px 80px 58px;
+    min-height: 350px;
+}
+
+.plants .plants_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plants .plants_block .plants_title{
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+
+.plants .plants_block .plants_list {
+    padding: 0 10px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+    width: 130px;
+    height: 31px;
+    border: 1px solid #E0E0E0;
+}
+
+.plants .plants_line {
+    margin-top: 16px;
+    width: 100%;
+    border: 1px solid #E0E0E0;
+}
+
+.plants .plants_wrapper {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.plants .plants_wrapper .plants_item .plants_subtitle {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.plants .plants_wrapper .plants_item img{
+    transition: 0.2s all;
+}
+
+.plants .plants_wrapper .plants_item img:hover{
+    transform: scale(1.1);
+}
+
+.plants .plants_wrapper .plants_item .plants_price {
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+.footer {
+    padding: 30px 0;
+    min-height: 150px;
+    border-top: 1px solid #156963;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer .footer_info .footer_title
+{
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #156963;
+}
+
+.footer .footer_info .footer_subtitle
+{
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+}
+
+.footer .footer_info .footer_descr {
+    text-align: center;
+    width: 300px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
